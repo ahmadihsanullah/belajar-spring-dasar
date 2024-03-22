@@ -20,7 +20,7 @@ public class DependencyInjectionTest {
 
     @Test
     void testDI() {
-        Foo foo = applicationContext.getBean("foo", Foo.class);
+        Foo foo = applicationContext.getBean("fooSecond", Foo.class);
         Bar bar = applicationContext.getBean("bar", Bar.class);
         FooBar fooBar = applicationContext.getBean("fooBar", FooBar.class);
 
