@@ -3,8 +3,8 @@ package programmerzamannow.spring.core.Scope;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
-import programmerzamannow.spring.core.BarConfiguration;
-import programmerzamannow.spring.core.FooConfiguration;
+import programmerzamannow.spring.core.configuration.BarConfiguration;
+import programmerzamannow.spring.core.configuration.FooConfiguration;
 
 @Configuration
 @Import(value = {
